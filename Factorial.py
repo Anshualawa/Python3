@@ -8,3 +8,13 @@ def Factorial(x):
 
 x = 5
 print(Factorial(x))
+
+# another way
+
+def factorial2(x):
+    y=1
+    for i in range(1,x+1):
+        y *=i
+    return y
+
+print(factorial2(5))
