@@ -50,7 +50,7 @@ def Print_Prime(a,b):
     print("Prime number in the range of [{},{}]: {}".format(a,b,num_list))
 ```
 Example
-```markdwon
+```markdown
 >>> Print_Prime(3,15)
 Prime number in the range of [3,15]: [3, 5, 7, 9, 11, 13, 15]
 >>> 
